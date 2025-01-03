@@ -6,7 +6,6 @@
 #include "miryoku_babel/miryoku_layer_selection.h"
 #include "miryoku_babel/miryoku_layer_list.h"
 
-#define MIRYOKU_KLUDGE_MOUSEKEYSPR
 #define U_MACRO_VA_ARGS(macro, ...) macro(__VA_ARGS__)
 #define U_STRINGIFY(x) #x
 #define U_MACRO(name,...) \
