@@ -29,6 +29,5 @@ MIRYOKU_X(GAME,   "Game")
 #define U_NUM    7
 #define U_SYM    8
 #define U_FUN    9
-#define U_GAME   10
 
 #endif
