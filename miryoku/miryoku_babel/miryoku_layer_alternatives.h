@@ -386,3 +386,10 @@ U_UND,             U_CUT,             U_CPY,             U_PST,             U_RD
 U_UND,             U_CUT,             U_CPY,             U_PST,             U_RDO,             U_RDO,             U_PST,             U_CPY,             U_CUT,             U_UND,             \
 U_NP,              U_NP,              U_BTN3,            U_BTN1,            U_BTN2,            U_BTN2,            U_BTN1,            U_BTN3,            U_NP,              U_NP
 
+#define MIRYOKU_ALTERNATIVES_GAME \
+&kp TAB,             &kp Q,             &kp W,             &kp E,             &kp R,             &kp Y,             &kp U,             &kp I,             &kp O,             &kp P,             \
+&kp LSHIFT,             &kp A,             &kp S,             &kp D,             &kp F,             &kp H,             &kp J,             &kp K,             &kp L,             &kp SQT,           \
+&kp LCTL,             &kp Z,             &kp X,             &kp C,             &kp V,             &kp N,             &kp M,             &kp COMMA,         &kp DOT,           &kp SLASH,         \
+U_NP,              U_NP,              &kp PGUP,           &kp SPACE,         &kp PGDN,           &kp RET,           &kp BSPC,          &kp DEL,           U_NP,              U_NP
+
+
