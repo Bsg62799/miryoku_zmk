@@ -32,7 +32,7 @@ MIRYOKU_X(GAME,   "Game")
 &kp LCTL,             &kp Z,             &kp X,             &kp C,             &kp V,             &kp N,             &kp M,             &kp COMMA,         &kp DOT,           &kp SLASH,         \
 U_NP,              U_NP,              &kp PGUP,           &kp SPACE,         &kp PGDN,           &kp RET,           &kp BSPC,          &kp DEL,           U_NP,              U_NP
 
-
+#define MIRYOKU_LAYERMAPPING_GAME MIRYOKU_MAPPING
 
 #if !defined (MIRYOKU_LAYOUTMAPPING_ADV360PRO)
 
