@@ -26,7 +26,7 @@ MIRYOKU_X(GAME,   "Game")
 #define U_FUN    9
 #define U_GAME   10
 
-#define MIRYOKU_GAME \
+#define MIRYOKU_LAYER_GAME \
 &kp TAB,             &kp Q,             &kp W,             &kp E,             &kp R,             &kp Y,             &kp U,             &kp I,             &kp O,             &kp P,             \
 &kp LSHIFT,             &kp A,             &kp S,             &kp D,             &kp F,             &kp H,             &kp J,             &kp K,             &kp L,             &kp SQT,           \
 &kp LCTL,             &kp Z,             &kp X,             &kp C,             &kp V,             &kp N,             &kp M,             &kp COMMA,         &kp DOT,           &kp SLASH,         \
