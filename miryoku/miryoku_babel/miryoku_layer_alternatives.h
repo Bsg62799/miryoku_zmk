@@ -391,5 +391,3 @@ U_NP,              U_NP,              U_BTN3,            U_BTN1,            U_BT
 &kp LSHIFT,             &kp A,             &kp S,             &kp D,             &kp F,             &kp H,             &kp J,             &kp K,             &kp L,             &kp SQT,           \
 &kp LCTL,             &kp Z,             &kp X,             &kp C,             &kp V,             &kp N,             &kp M,             &kp COMMA,         &kp DOT,           &kp SLASH,         \
 U_NP,              U_NP,              &kp PGUP,           &kp SPACE,         &kp PGDN,           &kp RET,           &kp BSPC,          &kp DEL,           U_NP,              U_NP
-
-
