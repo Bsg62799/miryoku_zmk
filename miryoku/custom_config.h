@@ -11,7 +11,8 @@ MIRYOKU_X(MOUSE,  "Mouse") \
 MIRYOKU_X(MEDIA,  "Media") \
 MIRYOKU_X(NUM,    "Num") \
 MIRYOKU_X(SYM,    "Sym") \
-MIRYOKU_X(FUN,    "Fun") 
+MIRYOKU_X(FUN,    "Fun") \
+MIRYOKU_X(GAME,   "Game") 
 
 #define U_BASE   0
 #define U_EXTRA  1
@@ -23,6 +24,7 @@ MIRYOKU_X(FUN,    "Fun")
 #define U_NUM    7
 #define U_SYM    8
 #define U_FUN    9
+#define U_GAME   10
 
 #define MIRYOKU_GAME \
 &kp TAB,             &kp Q,             &kp W,             &kp E,             &kp R,             &kp Y,             &kp U,             &kp I,             &kp O,             &kp P,             \
@@ -44,7 +46,7 @@ U_NP,              U_NP,              &kp PGUP,           &kp SPACE,         &kp
 ) \
 XXX  &kp 1  XXX  XXX  XXX  XXX  XXX                                               XXX  XXX  XXX  XXX  XXX  XXX  XXX \
 XXX  K00  K01  K02  K03  K04  XXX                                               XXX  K05  K06  K07  K08  K09  XXX \
-XXX  K10  K11  K12  K13  K14  XXX       XXX  &tog MIRYOKU_GAME                 XXX  XXX       XXX  K15  K16  K17  K18  K19  XXX \
+XXX  K10  K11  K12  K13  K14  XXX       XXX  &tog 10                XXX  XXX       XXX  K15  K16  K17  K18  K19  XXX \
 XXX  K20  K21  K22  K23  K24       XXX  XXX              K25  K26  K27  K28  K29  XXX \
 XXX  XXX  XXX  XXX  XXX            K32  K33  K34                 K35  K36  K37            XXX  XXX  XXX  XXX  XXX
 
