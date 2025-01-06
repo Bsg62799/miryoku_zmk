@@ -24,7 +24,7 @@ MIRYOKU_X(FUN,    "Fun")
 #define U_SYM    8
 #define U_FUN    9
 
-#define MIRYOKU_MEDIA \
+#define MIRYOKU_LAYOUT_MEDIA \
 &kp TAB,             &kp Q,             &kp W,             &kp E,             &kp R,             &kp Y,             &kp U,             &kp I,             &kp O,             &kp P,             \
 &kp LSHIFT,             &kp A,             &kp S,             &kp D,             &kp F,             &kp H,             &kp J,             &kp K,             &kp L,             &kp SQT,           \
 &kp LCTL,             &kp Z,             &kp X,             &kp C,             &kp V,             &kp N,             &kp M,             &kp COMMA,         &kp DOT,           &kp SLASH,         \
