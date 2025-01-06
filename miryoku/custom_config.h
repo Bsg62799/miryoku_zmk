@@ -8,7 +8,7 @@ MIRYOKU_X(TAP,    "Tap") \
 MIRYOKU_X(BUTTON, "Button") \
 MIRYOKU_X(NAV,    "Nav") \
 MIRYOKU_X(MOUSE,  "Mouse") \
-MIRYOKU_X(GAME,  "Game") \
+MIRYOKU_X(MEDIA,  "Media") \
 MIRYOKU_X(NUM,    "Num") \
 MIRYOKU_X(SYM,    "Sym") \
 MIRYOKU_X(FUN,    "Fun") 
@@ -19,12 +19,13 @@ MIRYOKU_X(FUN,    "Fun")
 #define U_BUTTON 3
 #define U_NAV    4
 #define U_MOUSE  5
-#define U_GAME  6
+#define U_MEDIA  6
 #define U_NUM    7
 #define U_SYM    8
 #define U_FUN    9
+#define U_GAME   10
 
-#define MIRYOKU_LAYOUT_GAME \
+#define MIRYOKU_GAME \
 &kp TAB,             &kp Q,             &kp W,             &kp E,             &kp R,             &kp Y,             &kp U,             &kp I,             &kp O,             &kp P,             \
 &kp LSHIFT,             &kp A,             &kp S,             &kp D,             &kp F,             &kp H,             &kp J,             &kp K,             &kp L,             &kp SQT,           \
 &kp LCTL,             &kp Z,             &kp X,             &kp C,             &kp V,             &kp N,             &kp M,             &kp COMMA,         &kp DOT,           &kp SLASH,         \
@@ -42,9 +43,9 @@ U_NP,              U_NP,              &kp PGUP,           &kp SPACE,         &kp
      K20, K21, K22, K23, K24,                                                        K25, K26, K27, K28, K29, \
      N30, N31, K32, K33, K34,                                                        K35, K36, K37, N38, N39 \
 ) \
-XXX  &kp K1  &kp K2 &kp K3 &kp K4 &kp K5 &tog 6                                              XXX  XXX  XXX  XXX  XXX  XXX  XXX \
+XXX  &kp N1  &kp N2 &kp N3 &kp N4 &kp N5 &tog 10                                              XXX  XXX  XXX  XXX  XXX  XXX  XXX \
 XXX  K00  K01  K02  K03  K04  XXX                                               XXX  K05  K06  K07  K08  K09  XXX \
-XXX  K10  K11  K12  K13  K14  XXX       XXX  &tog 6                XXX  XXX       XXX  K15  K16  K17  K18  K19  XXX \
+XXX  K10  K11  K12  K13  K14  XXX       XXX  XXX                XXX  XXX       XXX  K15  K16  K17  K18  K19  XXX \
 XXX  K20  K21  K22  K23  K24       XXX  XXX              K25  K26  K27  K28  K29  XXX \
 XXX  XXX  XXX  XXX  XXX            K32  K33  K34                 K35  K36  K37            XXX  XXX  XXX  XXX  XXX
 
